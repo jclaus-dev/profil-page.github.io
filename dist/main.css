@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../fonts/jost/Jost-VariableFont_wght.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Jost";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../fonts/jost/Jost-Italic-VariableFont_wght.woff2") format("woff2");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  font-family: "Jost", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url("../images/wp9393132-clean-pc-wallpapers.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 620px;
+  height: 700px;
+}
+
+h1 {
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 45px;
+  border-radius: 10px;
+  background: transparent;
+  font-weight: bold;
+  margin: 7px 0 7px 0;
+  background-color: rgba(187, 176, 171, 0.26);
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+a:hover {
+  background-color: rgba(252, 244, 240, 0.26);
+}
+
+a > .fa {
+  padding-right: 5px;
+  font-weight: bold;
+}
+
+/* Beispiel
+$color-primary: rgb(0, 226, 156)!default;
+$color-secondary: #26464d!default;
+
+$color-secondary-dark: #011820!default;
+$color-secondary-light: color.scale($color-secondary, $lightness: 20%)!default;
+
+/** 1200px oder schmaler */
+/** 992px oder schmaler */
+/** 768px oder schmaler */
+/** 576px oder schmaler */
+/** Breakpoints */
+
+/*# sourceMappingURL=main.css.map */

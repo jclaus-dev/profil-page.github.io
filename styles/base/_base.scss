@@ -1,0 +1,78 @@
+// Standart Werte!
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    font-family: 'Jost', sans-serif;
+}
+
+// Box
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    min-height: 100vh;
+    background-image: url("../images/wp9393132-clean-pc-wallpapers.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    //border: 5px solid red;
+    width: 620px;
+    height: 700px;
+}
+
+// Content
+
+h1 {
+    margin-top: 15px;
+    margin-bottom: 8px
+}
+
+p {
+    text-align: center;
+    margin-bottom: 15px
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 45px;
+    border-radius: 10px;
+    background: transparent;
+    font-weight: bold;
+    margin: 7px 0 7px 0;
+    background-color: rgba(187, 176, 171, 0.26);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    background-color: rgba(252, 244, 240, 0.26);
+}
+
+a > .fa  {
+    padding-right: 5px;
+    font-weight: bold;
+}
